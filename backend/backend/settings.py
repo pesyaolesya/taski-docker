@@ -8,7 +8,7 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'pesyahost.ddnsking.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'pesyahost.ddnsking.com', '158.160.4.206']
 
 
 # Application definition
@@ -70,7 +70,6 @@ DATABASES = {
         'PORT': os.getenv('DB_PORT', 5432)
     }
 }
-
 
 
 # Password validation
